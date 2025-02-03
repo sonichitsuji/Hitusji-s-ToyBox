@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "unlock": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "h_core:asc_rifle"
+        }
+      }
+    },
+    "rewards": {
+      "function": "real_weapons:asc_rifle/craft"
+    }
+  }
