@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "sorcery:magic_powder"
+      }
+    }
+  },
+  "rewards": {
+    "function": "sorcery:craft/magic_powder"
+  }
+}

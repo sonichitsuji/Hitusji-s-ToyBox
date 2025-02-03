@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "":{
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "custom_data": {
+              "HData": {
+                "ItemType": "wand"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sorcery:mains/right_click"
+  }
+}

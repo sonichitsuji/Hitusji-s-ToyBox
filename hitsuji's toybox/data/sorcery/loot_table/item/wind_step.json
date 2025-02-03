@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "wind"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "HData": {
+                    "Magic": "wind_step",
+                    "ItemType": "spellbook",
+                    "Charge": false
+                  }
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#00ffaa",
+                  "italic": false,
+                  "text": "ウィンドステップ"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                [
+                  {
+                    "color": "#00ffaa",
+                    "italic": false,
+                    "text": "風魔法"
+                  },
+                  {
+                    "color": "#DBDBDB",
+                    "italic": false,
+                    "text": "の中級魔法。"
+                  }
+                ],
+                {
+                  "color": "#DBDBDB",
+                  "italic": false,
+                  "text": "風圧を利用して高速移動する。"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

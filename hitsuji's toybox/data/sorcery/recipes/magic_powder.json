@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "glowstone_dust"
+        },
+        {
+            "item": "minecraft:gold_nugget"
+        },
+        {
+            "item": "poppy"
+        }
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}
