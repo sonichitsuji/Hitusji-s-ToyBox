@@ -7,6 +7,6 @@
 reload
 
 # リロード完了のお知らせ
-tellraw @a [{"text":"[Reload : "},{"text":"Compleat","color":"yellow"},{"text":"]"}]
+tellraw @a [{"text":"[Reload : "},{"text":"Complete","color":"yellow"},{"text":"]"}]
 
 playsound hituji:explode master @a ~ ~ ~ 1 1

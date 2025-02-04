@@ -16,7 +16,7 @@ execute at @s anchored eyes positioned ^-0.3 ^ ^0.5 run tp @n[tag=H.Launch] ~ ~ 
 # 魔法の詳細設定
 scoreboard players set @n[tag=H.Launch] H.Speed 7
 scoreboard players set @n[tag=H.Launch] H.Return.Count 7
-scoreboard players set @n[tag=H.Launch] H.Death.Count 60
+scoreboard players set @n[tag=H.Launch] H.Death.Count 30
 scoreboard players set @n[tag=H.Launch] H.Blast.Range 5
 scoreboard players operation @n[tag=H.Launch] H.Entity.ID = @p H.Entity.ID
 

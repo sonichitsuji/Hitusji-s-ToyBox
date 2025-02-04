@@ -17,7 +17,7 @@ tag @s add H.This
 execute as @a if score @s H.Entity.ID = @n[tag=H.This] H.Entity.ID run tag @s add H.That
 
 # ダメージの関数に渡す引数
-data modify storage hitsuji:sorcery Damage set value "25"
+data modify storage hitsuji:sorcery Damage set value "20"
 data modify storage hitsuji:sorcery Damage_type set value "lava"
 data modify storage hitsuji:sorcery DeathMsg set value "焼き貫かれた"
 
