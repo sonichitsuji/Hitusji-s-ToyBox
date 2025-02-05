@@ -3,7 +3,7 @@
 # @within sorcery:mains/detect_sorcery
 
 # スコアセット
-scoreboard players set @s H.CoolTime 30
+scoreboard players set @s H.CoolTime 50
 tag @s add H.CoolTime
 
 # クールタイム表示
@@ -14,8 +14,8 @@ execute anchored eyes run summon minecraft:armor_stand ~ ~ ~ {Tags:["H.Magic","H
 execute at @s anchored eyes positioned ^-0.3 ^ ^0.5 run tp @n[tag=H.Launch] ~ ~ ~ ~ ~
 
 # 魔法の詳細設定
-scoreboard players set @n[tag=H.Launch] H.Speed 15
-scoreboard players set @n[tag=H.Launch] H.Return.Count 15
+scoreboard players set @n[tag=H.Launch] H.Speed 10
+scoreboard players set @n[tag=H.Launch] H.Return.Count 10
 scoreboard players set @n[tag=H.Launch] H.Death.Count 30
 scoreboard players set @n[tag=H.Launch] H.Blast.Range 5
 scoreboard players operation @n[tag=H.Launch] H.Entity.ID = @p H.Entity.ID

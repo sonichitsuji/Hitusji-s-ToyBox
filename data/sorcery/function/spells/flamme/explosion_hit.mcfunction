@@ -4,6 +4,8 @@
 
 # 音もいるよね
 execute as @s at @s run playsound minecraft:item.firecharge.use master @a ~ ~ ~ 5 1.5 1
+execute as @s at @s run playsound minecraft:entity.generic.explode master @a ~ ~ ~ 1 1 1
+
 
 # 自分にタグ付け
 tag @s add H.This
