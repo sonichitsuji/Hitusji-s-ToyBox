@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "HData": {
+                    "ItemType": "reloader"
+                  }
+                },
+                "minecraft:potion_contents": {
+                  "custom_color": 6553599
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#63FFFF",
+                  "italic": false,
+                  "text": "Reloader"
+                }
+              ],
+              "target": "custom_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                [
+                  {
+                    "color": "#DBDBDB",
+                    "italic": false,
+                    "text": "投げたらリロード。"
+                  },
+                  {
+                    "color": "#DBDBDB",
+                    "italic": false,
+                    "strikethrough": true,
+                    "text": "需要ある？"
+                  }
+                ]
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
