@@ -4,4 +4,4 @@
 # @within sorcery:flamme/nucleus
 
 # 移動のapiを起動
-function sorcery:magic_move {Particle_Link:"function sorcery:particles/nucleus",Col_Procces:"fill ~-0.5 ~-0.5 ~-0.5 ~0.5 ~0.5 ~0.5 air",Hit_Link:"sorcery:spells/flamme/nucleus_hit",This_Link:"sorcery:spells/flamme/nucleus_move"}
+function sorcery:magic_move {Particle_Link:"function sorcery:particles/nucleus",Col_Procces:"function sorcery:spells/flamme/nucleus_col",Hit_Link:"sorcery:spells/flamme/nucleus_hit",This_Link:"sorcery:spells/flamme/nucleus_move"}

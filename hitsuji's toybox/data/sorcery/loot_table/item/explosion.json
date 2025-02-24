@@ -22,7 +22,7 @@
                 },
                 "minecraft:custom_data": {
                   "HData": {
-                    "Magic": "nucleus",
+                    "Magic": "explosion",
                     "ItemType": "spellbook",
                     "Charge": false
                   }
@@ -35,7 +35,7 @@
                 {
                   "color": "#FF5000",
                   "italic": false,
-                  "text": "ニュークリアス"
+                  "text": "エクスプロージョン"
                 }
               ],
               "target": "item_name"
@@ -52,13 +52,13 @@
                   {
                     "color": "#DBDBDB",
                     "italic": false,
-                    "text": "の中級魔法。"
+                    "text": "の上級魔法。"
                   }
                 ],
                 {
                   "color": "#DBDBDB",
                   "italic": false,
-                  "text": "核の熱線で敵を貫く。"
+                    "text": "炸裂！爆裂！大爆発！"
                 }
               ],
               "mode": "append"

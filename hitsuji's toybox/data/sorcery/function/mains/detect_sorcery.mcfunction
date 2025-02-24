@@ -8,6 +8,7 @@ stopsound @s master block.note_block.bell
 # アイテムの使用を検知、発動
 execute as @s[predicate=sorcery:flamme,tag=H.Socery.Start] run function sorcery:spells/flamme/flamme
 execute as @s[predicate=sorcery:nucleus,tag=H.Socery.Start] run function sorcery:spells/flamme/nucleus
+execute as @s[predicate=sorcery:explosin,tag=H.Socery.Start] run function sorcery:spells/flamme/explosion
 execute as @s[predicate=sorcery:bolt,tag=H.Socery.Start] run function sorcery:spells/bolt/bolt
 execute as @s[predicate=sorcery:raum,tag=H.Socery.Start] run function sorcery:spells/raum/raum
 execute as @s[predicate=sorcery:weltraum,tag=H.Socery.Start] run function sorcery:spells/raum/weltraum
