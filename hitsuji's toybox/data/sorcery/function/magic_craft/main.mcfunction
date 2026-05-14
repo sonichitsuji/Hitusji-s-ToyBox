@@ -10,5 +10,5 @@ execute align xyz as @e[dx=0,type=item,nbt={Item:{id:"minecraft:ender_eye"}},sor
 execute align xyz as @e[dx=0,type=item,nbt={Item:{id:"minecraft:ender_pearl"}},sort=nearest,limit=1] at @s run function sorcery:craft/raum
 execute align xyz as @e[dx=0,type=item,nbt={Item:{id:"minecraft:blaze_powder"}},sort=nearest,limit=1] at @s run function sorcery:craft/nucleus
 execute align xyz as @e[dx=0,type=item,nbt={Item:{id:"minecraft:glistering_melon_slice"}},sort=nearest,limit=1] at @s run function sorcery:craft/heal
-execute align xyz as @e[dx=0,type=item,nbt={Item:{id:"minecraft:quartz"}},sort=nearest,limit=1] at @s run function sorcery:craft/zoltraak
+execute align xyz as @e[dx=0,type=item,nbt={Item:{id:"minecraft:quartz"}},sort=nearest,limit=1] at @s run function sorcery:craft/judgement
 execute align xyz as @e[dx=0,type=item,nbt={Item:{id:"minecraft:spider_eye"}},sort=nearest,limit=1] at @s run function sorcery:craft/chase_shot

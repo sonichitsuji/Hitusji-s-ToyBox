@@ -10,11 +10,20 @@ scoreboard objectives add H.Succes.Count dummy "何回成功した？"
 scoreboard objectives add H.Pos.x dummy "位置の処理に使うx座標"
 scoreboard objectives add H.Pos.y dummy "位置の処理に使うy座標"
 scoreboard objectives add H.Pos.z dummy "位置の処理に使うz座標"
-
+scoreboard objectives add H.Temporaly dummy "計算用の一時的な数値"
+scoreboard objectives add H.Angle.Yaw dummy "角度の計算に使うYaw方向"
+execute store result score $H.Yaw H.Angle.Yaw run random value 0..359
+scoreboard objectives add H.Angle.Pitch dummy "角度の計算に使うPitch方向"
+execute store result score $H.Pitch H.Angle.Pitch run random value 0..90
+scoreboard objectives add H.Counter dummy "使用回数などをカウント"
 
 ## 数値
-scoreboard objectives add H.n dummy "固定の数値だよ"
-scoreboard players set $H_500 H.n 500
+scoreboard objectives add H.Const dummy "固定の数値だよ"
+scoreboard players set $H360 H.Const 360
+scoreboard players set $H90 H.Const 90
+scoreboard players set $H20 H.Const 20
+scoreboard players set $H2 H.Const 2
+scoreboard players set $H-1 H.Const -1
 
 ## アイテムのなんかいろいろ検知
 scoreboard objectives add H.Drop minecraft.custom:drop "物を投げるな!"

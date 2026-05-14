@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "":{
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "custom_data": {
+              "HData": {
+                "Magic": "judgement",
+                "ItemType": "spellbook",
+                "Charge": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sorcery:mains/use_spellbook/judgement"
+  }
+}

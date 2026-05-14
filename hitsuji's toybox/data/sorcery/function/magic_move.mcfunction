@@ -1,6 +1,6 @@
 #> sorcery:magic_move
 #
-# 魔法の再帰移動の処理
+# 魔法の再帰移動の共通処理
 # @input $(Particle_Link) $(Col_Procces) $(Hit_Link) $(This_Link) $(Box) $(d)
 # @api
 

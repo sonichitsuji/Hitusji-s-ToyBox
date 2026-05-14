@@ -17,7 +17,11 @@
               "components": {
                 "max_stack_size": 1,
                 "minecraft:unbreakable": {
-                  "show_in_tooltip": false
+                },
+                "tooltip_display": {
+                  "hidden_components": [
+                    "unbreakable"
+                  ]
                 },
                 "minecraft:rarity": "rare",
                 "minecraft:consumable": {

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "":{
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "custom_data": {
+              "HData": {
+                "Magic": "retribution",
+                "ItemType": "spellbook",
+                "Charge": false
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sorcery:mains/use_spellbook/retribution"
+  }
+}

@@ -3,7 +3,7 @@
 # @within sorcery:magic_craft/main
 
 # アイテムどーぞ
-loot spawn ~ ~ ~ loot sorcery:item/zoltraak
+loot spawn ~ ~ ~ loot sorcery:item/judgement
 
 # 効果音
 playsound minecraft:entity.player.levelup master @a ~ ~ ~ 1 1.8
