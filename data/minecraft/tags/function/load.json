@@ -1,5 +1,6 @@
 {
   "values": [
-    "h_core:load"
+    "h_core:load",
+    "unique_data:load"
  ]
 }
