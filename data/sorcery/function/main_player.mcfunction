@@ -23,6 +23,7 @@ execute if entity @s[tag=H.Click.Check] run function sorcery:mains/after_right_c
 
 # シフトした時の処理
 execute if entity @s[predicate=sorcery:chase_shot,predicate=h_core:sneak,predicate=sorcery:has_wand] anchored eyes run function sorcery:spells/lock/beam
+execute if entity @s[predicate=sorcery:chase_barrage,predicate=h_core:sneak,predicate=sorcery:has_wand] anchored eyes run function sorcery:spells/lock/beam
 execute if entity @s[predicate=sorcery:retribution,predicate=h_core:sneak,predicate=sorcery:has_wand] anchored eyes run function sorcery:spells/lock/beam
 
 # 特殊処理
