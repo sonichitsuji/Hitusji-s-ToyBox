@@ -20,6 +20,7 @@ execute as @s[predicate=sorcery:rail_cannon,tag=H.Socery.Start,nbt={Inventory:[{
 execute as @s[predicate=sorcery:heal,tag=H.Socery.Start] run function sorcery:spells/heal/heal
 execute as @s[predicate=sorcery:ricochet_orb,tag=H.Socery.Start] run function sorcery:spells/niente/ricochet_orb/cast
 execute as @s[predicate=sorcery:chase_shot,tag=H.Socery.Start] run function sorcery:spells/niente/chase_shot/cast
+execute as @s[predicate=sorcery:chase_barrage,tag=H.Socery.Start] run function sorcery:spells/niente/chase_barrage/cast
 execute as @s[predicate=sorcery:judgement,tag=H.Socery.Start] run function sorcery:spells/niente/judgement/cast
 execute as @s[predicate=sorcery:retribution,tag=H.Socery.Start] run function sorcery:spells/niente/retribution/cast with storage hitsuji:sorcery
 execute as @s[predicate=sorcery:wind_cutter,tag=H.Socery.Start] run function sorcery:spells/wind/wind_cutter/cast

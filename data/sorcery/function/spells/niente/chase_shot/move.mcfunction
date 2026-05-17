@@ -2,6 +2,9 @@
 # チェイスショットの移動の処理
 #@input storage hitsuji:sorcery
 
+# タグ消し(chase_barrage用)
+execute if entity @s[tag=H.Firstmove] run tag @s remove H.Firstmove
+
 # ストレージセット
 execute as @s store result storage hitsuji:sorcery owner_id int 1 run scoreboard players get @s H.Entity.ID
 
