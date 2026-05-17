@@ -35,9 +35,9 @@ execute if entity @s[scores={H.Return.Count=1..},tag=!H.Wait] as @s positioned ~
 execute if entity @s[scores={H.Return.Count=1..},tag=!H.Wait] as @s at @s if entity @e[tag=H.hit,sort=nearest,limit=1] at @s run function sorcery:spells/niente/chase_shot/hit
 
 # 弾加速
-execute if score @s H.Return.Count matches ..0 unless score @s H.Speed matches 50.. run scoreboard players add @s H.Succes.Count 1
-execute if score @s H.Return.Count matches ..0 if score @s H.Speed matches 1..20 if score @s H.Succes.Count matches 10 run scoreboard players add @s H.Speed 2
-execute if score @s H.Return.Count matches ..0 if score @s H.Speed matches 21..50 if score @s H.Succes.Count matches 10 run scoreboard players add @s H.Speed 5
+execute if score @s H.Return.Count matches ..0 unless score @s H.Speed matches 100.. run scoreboard players add @s H.Succes.Count 1
+execute if score @s H.Return.Count matches ..0 if score @s H.Speed matches 1..40 if score @s H.Succes.Count matches 10 run scoreboard players add @s H.Speed 2
+execute if score @s H.Return.Count matches ..0 if score @s H.Speed matches 41..100 if score @s H.Succes.Count matches 10 run scoreboard players add @s H.Speed 5
 execute if score @s H.Return.Count matches ..0 if score @s H.Succes.Count matches 10 run scoreboard players set @s H.Succes.Count 0
 
 # 再帰
