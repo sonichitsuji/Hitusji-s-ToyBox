@@ -14,8 +14,8 @@ execute anchored eyes run summon minecraft:armor_stand ~ ~ ~ {Tags:["H.Magic","H
 execute at @s anchored eyes positioned ^-0.3 ^ ^0.5 run tp @n[tag=H.Launch] ~ ~ ~ ~ ~
 
 # 魔法の詳細設定
-scoreboard players set @n[tag=H.Launch] H.Speed 2
-scoreboard players set @n[tag=H.Launch] H.Return.Count 2
+scoreboard players set @n[tag=H.Launch] H.Speed 1
+scoreboard players set @n[tag=H.Launch] H.Return.Count 1
 scoreboard players set @n[tag=H.Launch] H.Death.Count 100
 scoreboard players operation @n[tag=H.Launch] H.Entity.ID = @s H.Entity.ID
 

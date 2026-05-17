@@ -5,7 +5,7 @@
 # ストレージセット
 execute as @s store result storage hitsuji:sorcery owner_id int 1 run scoreboard players get @s H.Entity.ID
 
-# H.Speedをdoubleでstorageに入れて0.01倍
+# H.Speedをdoubleでstorageに入れて0.02倍
 execute store result storage hitsuji:sorcery temporaly double 0.02 run scoreboard players get @s H.Speed
 
 # 再帰カウント
